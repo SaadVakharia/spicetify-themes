@@ -73,7 +73,7 @@
     --border-transition: none;
     /* 'none' to disable  */
 
-    --global-nav-margin-top: 50px;
+    --global-nav-margin-top: 0px;
     /* set to '0px' if you disabled window controls */
 }
 
@@ -1143,23 +1143,7 @@ button[data-testid="control-button-npv-episodes"] svg {
     fill: var(--spice-accent-active);
 }
 
-/* ================================
-   WINDOW CONTROLS & TOPBAR POLISH
-   ================================ */
 
-.spotify__container--is-desktop:not(.fullscreen) body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 999;
-    width: 135px;
-    height: var(--global-nav-margin-top);
-    background-color: var(--spice-main);
-    border-bottom: var(--border-width) var(--border-style) var(--spice-border-inactive);
-    border-left: var(--border-width) var(--border-style) var(--spice-border-inactive);
-    pointer-events: none;
-}
 
 /* ================================
    CIRCULAR PROFILE AVATAR
