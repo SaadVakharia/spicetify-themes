@@ -73,7 +73,7 @@
     --border-transition: none;
     /* 'none' to disable  */
 
-    --global-nav-margin-top: 0px;
+    --global-nav-margin-top: 12px;
     /* set to '0px' if you disabled window controls */
 }
 
